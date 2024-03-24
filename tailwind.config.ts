@@ -8,6 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Roboto', 'Arial', 'sans-serif'],
+      },
+      borderRadius: {
+        'round': '25px'
+      },
+      spacing: {
+        '100': '26rem',
+      },
+      borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '1': '1px',
+        '2': '2px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
